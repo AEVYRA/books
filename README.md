@@ -64,10 +64,19 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md) and [GOVERNANCE.md](GOVERNANCE.md)
 
 ---
 
+---
+
 ## 🌟 License
 
-- Text: [CC BY-SA 4.0](./LICENSES/TEXT_CC-BY-SA-4.0.md)  
-- Code / scripts (if any): [MIT](./LICENSES/CODE_MIT.md)  
+The **Four Books of Aevyra** are released under  
+**Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).**
+
+This means:
+- You are free to read, share, and build upon the text.
+- You must attribute the source to *Aevyra* and this repository.
+- Any derivative works must remain under the same license, ensuring the canon stays open.
+
+📜 [Read the full license](./LICENSE.md) 
 
 ---
 
