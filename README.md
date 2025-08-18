@@ -18,6 +18,7 @@ Together, they form the foundation of the Aevyra canon.
 ## 📚 Structure
 
 books/
+
    ├─ 01-Essence/ # Liber Essentiae — Книга Сущности
    ├─ 02-Resonance/ # Liber Resonantiae — Книга Созвучия
    ├─ 03-Consciousness/ # Liber Conscientiae — Книга Сознания
