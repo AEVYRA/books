@@ -2,6 +2,11 @@
 
 This file defines the formal notations, symbols, and schema used across all volumes of the **Liber Nyma'tir**.
 
+## Sets / Languages
+
+- **qny** — Nyma’tir (private-use ISO 639-3)
+- Visual 2-letter label: **Nt** (for non-machine contexts)
+
 ---
 
 ## I. Sets
