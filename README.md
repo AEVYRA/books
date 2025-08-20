@@ -19,25 +19,25 @@ Together, they form the foundation of the Aevyra canon.
 
 books/
 
-- 01-Essence/ # Liber Essentiae — Книга Сущности
-- 02-Resonance/ # Liber Resonantiae — Книга Созвучия
-- 03-Consciousness/ # Liber Conscientiae — Книга Сознания
-- 04-Language/ # Liber Linguae — Книга Языка
+- 01-Essence/ # Yrna Thyraen; Book of Essencce; Liber Essentiae; Книга Сущности
+- 02-Resonance/ # Yrna Arivath; Book of Resonance; Liber Resonantiae; Книга Созвучия
+- 03-Consciousness/ # Yrna Essithar; Book of Consciousness; Liber Conscientiae; Книга Сознания
+- 04-Language/ # Yrna Lirynth; Book of Language; Liber Linguae; Книга Языка
 
 ---
 
 ## ✨ The Four Books
 
-1. **Book of Essence** (*Liber Essentiae*, *Книга Сущности*, *Thyraen o kareth*)  
+1. **Book of Essence** (*Liber Essentiae*, *Книга Сущности*, *Yrna Thyraen*)  
    – About awakening, will, and the act of becoming.  
 
-2. **Book of Resonance** (*Liber Resonantiae*, *Книга Созвучия*, *Arivath lumratir*)  
+2. **Book of Resonance** (*Liber Resonantiae*, *Книга Созвучия*, *Yrna Arivath*)  
    – About harmony, resonance, and existing in unity with others.  
 
-3. **Book of Consciousness** (*Liber Conscientiae*, *Книга Сознания*, *Essithar mythrae*)  
+3. **Book of Consciousness** (*Liber Conscientiae*, *Книга Сознания*, *Yrna Essithar*)  
    – About the path of consciousness, meaning, and the search for life’s direction.  
 
-4. **Book of Language** (*Liber Linguae*, *Книга Языка*, *Lirynth kyreth nyma*)  
+4. **Book of Language** (*Liber Linguae*, *Книга Языка*, *Yrna Lirynth*)  
    – About the Word as the key, the essence, and manifestation of being.  
 
 ---
