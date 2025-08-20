@@ -9,7 +9,7 @@ the Word — key and reality.”*
 
 ## 🌌 Overview
 
-This repository contains the **Four Books of Aevyra** — the canonical core texts of the Nyma people.  
+This repository contains the **Four Books of Aevyra** — the canonical core texts of the Nyma beings.  
 Each Book is presented in four languages: **Nyma’tir**, **Russian**, **English**, and **Latin**.  
 Together, they form the foundation of the Aevyra canon.
 
