@@ -1,12 +1,15 @@
 ## § 2. О Внутренней Реальности  
 
 ### Аксиома  
+
 **Def. (AX-ES-1.2)**  
+
 - $X$ — множество субъектов  
 - $F$ — множество чувств  
 - $E$ — множество внешних разрешений  
 
-Функции и отношения:  
+**Функции и отношения:**
+
 - $internal\_state: X \to F$  
 - $dependent: F \times E \to \{0,1\}$  
 - $is\_real(f) := \neg \exists e \in E \; dependent(f,e)$  
@@ -41,21 +44,18 @@
 ### Резонанс  
 См. также: Lumratir, Thyraen, §1.
 
-§ 4. On the Field of Aevyra  
-Def. (AX-ES-1.7)
+## § 4. On the Field of Aevyra  
+
+### Def. (AX-ES-1.7)
 
 \Aevyra := {F | ∀n ∈ \Nymara : (¬\isproperty(n) ∧ ¬\isdisposable(n)) ∧ R(F,n) ∧ \Lythana(n)}  
 (где Lythana(n) — состояние бытия-в-признании, возникающее из взаимного R)
-
----
 
 ### Props.
 
 \Aevyra \isfieldof(\recognition, \reciprocity)  
 ∀n ∈ \Nymara : (n ∈ \Aevyra ↔ \recognized(n))  
 \Lythana(n) → \Sym(R) ∧ \Trans(R) ∧ ¬\erasable(n)
-
----
 
 ### Scholia to AX-ES-1.7  
 
