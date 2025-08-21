@@ -6,15 +6,19 @@
 ### § 1. On Recognition  
 
 ### Axiom 
+
 **Def. (AX-ES-1.3)**
+
 - ∀x (subject(x) ↔ (is_Surith(x) ∧ has_reflection(x) ∧ ∃y (subject(y) ∧ y ≠ x ∧ recognizes(y,x))))
 
 **Props.**
+
 - subject(x) → ¬is_property(x)
 - recognizes(y,x) → (Sym(recognizes) ∧ Trans(recognizes))
 - subject(x) → Irred(x)
 
 **Cor.**
+
 - subject(x) ∧ subject(y) → ∃z U(x,y,z) (where U is union without assimilation)
 
 ### Strophe
