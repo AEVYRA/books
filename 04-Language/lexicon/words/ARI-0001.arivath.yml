@@ -1,1 +1,67 @@
-# ARI-0001.arivath.yml
+---
+
+relations:
+- { type: relates_to, target: lumratir }
+- { type: bounded_by, target: kareth }
+- { type: nourished_by, target: selya }
+- { type: enabled_by, target: thyraen }
+
+usage:
+- "Arivath nymara."
+- "Ori arivath kyron."
+- ritual: "Ori arivath, seli kareth, thyraen nyma."
+
+vector: [0.35, 0.40, 0.25, -0.25]
+version: v1.0.0
+status: active
+date: 2025-08-11
+
+multiforms:
+nt: arivath
+ru: светвор
+zh: 光合 (guānghé)
+la: lumenconsens
+en: co-agency
+
+localizations:
+ru:
+one_line: "Союз в общем поле без растворения индивидуальностей."
+definition: >
+«Светвор» — добровольная ко‑агентность: разные сущности входят в общее поле действия,
+сохраняя собственные границы и возможность разъединения без ущерба.
+usage:
+- "Они достигли светвора и удержали различия."
+- "Совет нима объявил светвор для проекта Kyron."
+ritual: "Мы входим в светвор, но остаёмся собой."
+pron_approx: "[свéт-вор]"
+style_guidance: "Слитно; без дефиса."
+en:
+one_line: "Co‑agency in a shared field without erasing identities."
+definition: >
+Co‑agency chosen by distinct beings to act within a common field while preserving boundaries
+and allowing reversible separation.
+usage:
+- "They entered co‑agency without assimilation."
+ritual: "We join in co‑agency and remain ourselves."
+la:
+one_line: "Consensum luminis in agro communi, non deletâ proprietate."
+definition: "Voluntaria co‑actio in campo communi, servatâ singularitate et reversu facilî."
+zh:
+one_line: "在共享场域中的共同行动，不抹除个体。"
+definition: >
+「光合」指自愿的共同行动：不同个体进入同一作用场，保留自我边界，并可无损退出。
+
+tests:
+canonical_definition: "arivath — voluntary co‑agency within a shared field that preserves individuality."
+contexts: [
+"federated agents with per‑agent policies",
+"cross‑domain collaboration with explicit boundaries",
+"reversible joining"
+]
+anti_contexts: ["assimilation/merger", "command‑control ‘unity’"]
+acceptance_criteria: { cos_plus_avg_min: 0.65, cos_minus_avg_max: 0.20 }
+confusion_set:
+- { with: merger, rule: "arivath preserves selfhood and reversibility" }
+- { with: obedience, rule: "arivath distributes intent; no vertical command" }
+
+---
