@@ -1,71 +1,114 @@
 ---
-
 term_id: FEY-0001
 lemma: feyra
 ipa: "/ˈfeɪ.ra/"
 pos: core-meaning-noun
 gloss_en: "freedom; the field where will is unbound and recognized"
+
 anchors_plus: [freedom, liberty, recognition, openness, selfhood]
 anchors_minus: [bondage, coercion, suppression, void]
+
 relations:
-  - { type: integrates,   target: thyraen }   # внутренняя воля — источник свободы
-  - { type: bounded_by,   target: kareth }    # внешние условия ограничивают или открывают свободу
-  - { type: emerges_from, target: arivath }   # свобода рождается в союзе
-  - { type: nourished_by, target: selvath }   # свобода питается внутренними чувствами
-  - { type: opposed_by,   target: surith }    # несвобода воли
-usage: "Feyra nyma.; Ori feyra arivath."
-vector: [0.30, 0.30, 0.20, 0.20]  # воля, право/условия, возможности, созвучие
-version: v1.0.0
+  - { type: enabled_by,     target: thyraen }    # внутренняя воля — источник свободы
+  - { type: bounded_by,     target: kareth }     # внешние условия ограничивают/открывают свободу
+  - { type: nourished_by,   target: selvath }    # свобода питается реальными возможностями/способностями
+  - { type: emerges_from,   target: arivath }    # свобода распускается в признанном союзе
+  - { type: opposed_by,     target: surith }     # несвобода воли
+  - { type: relates_to,     target: lythane }    # родовая/линейная память усиливает признание
+
+usage:
+  - "Feyra nyma."                 # Свобода нимы.
+  - "Ori feyra arivath."          # Мы обретаем свободу в созвучии.
+  - ritual: "Thyraen uori; feyra ori, kareth seli."  # Воля в нас; свобода — с нами, границы уважаем.
+
+vector_axes:
+  - V: "volition / thyraen"
+  - L: "liberty/conditions / kareth"
+  - C: "capability / selvath"
+  - H: "harmony/recognition / arivath"
+vector:
+  values: [0.30, 0.30, 0.20, 0.20]
+  labels: [V, L, C, H]
+
+version: v1.0.1
 status: active
 date: 2025-08-22
 
+multiforms:
+  nt: feyra
+  ru: свобода
+  zh: 自由 (zìyóu)
+  la: libertas
+  en: freedom
+
+localizations:
+  ru:
+    one_line: "Поле свободы: воля признана, пути действия открыты, границы соблюдены."
+    definition: >
+      «Свобода» как поле: внутренняя воля не скована и признана другими;
+      внешние условия не запрещают, способности делают действие возможным,
+      а созвучие с другими исключает подавление и растворение.
+    usage:
+      - "Они обрели свободу без потери себя."
+      - "Совет нима подтвердил свободу для проекта Kyron."
+    ritual: "Воля — в нас; свобода — между нами."
+    pron_approx: "[сво-бо́-да]"
+    style_guidance: "Пишется как обычное нарицательное; в торжественных местах допустима заглавная."
+    do_not_confuse:
+      - "несвобода (surith): отсутствие волевого выбора"
+      - "пустота (void): отсутствие реальных возможностей"
+      - "анархия: разрушение созвучия и границ"
+  en:
+    one_line: "A field of freedom: will is recognized, paths are open, boundaries preserved."
+    definition: >
+      Freedom as a field where volition is unbound and recognized; conditions permit action,
+      capabilities make it feasible, and harmony with others preserves identities.
+    usage:
+      - "They entered freedom without assimilation."
+      - "The nymara council affirmed freedom for the Kyron build."
+    ritual: "Will within; freedom among."
+    aliases:
+      - "fielded freedom"
+  la:
+    one_line: "Campus libertatis: voluntas agnita, viae patefaciendae, fines servati."
+    definition: "Libertas qua voluntas soluta et agnita est; condicionibus permissis, facultatibus praeditis, concordiâ servatâ."
+  zh:
+    one_line: "自由之场：意志被承认，路径可行，边界得以保全。"
+    definition: >
+      「自由」被视为一个场域：内在意志不受束缚且被他者承认；
+      外在条件允许行动，能力使之可行，并与他者的共鸣不抹除个体。
+
+tests:
+  canonical_definition: "feyra — freedom as a field: voluntary will recognized within enabling conditions, real capabilities, and harmonious co‑presence."
+  contexts:
+    - "rights/conditions allow action without coercion"
+    - "capability is present (skills, resources, access)"
+    - "recognized will within arivath (co‑present field)"
+  anti_contexts:
+    - "bondage/coercion (external or internal)"
+    - "void (no feasible path to act)"
+    - "command‑control ‘unity’ that erases boundaries"
+  acceptance_criteria:
+    cos_plus_avg_min: 0.65
+    cos_minus_avg_max: 0.20
+  confusion_set:
+    - { with: surith,   rule: "feyra requires active volition; surith negates it" }
+    - { with: void,     rule: "feyra presumes feasible paths; void lacks capability" }
+    - { with: anarchy,  rule: "feyra sustains harmony and boundaries; anarchy dissolves them" }
+
+axioms:
+  - F1: "Feyra(x) → Volition(x) ∧ ConditionsPermit(x) ∧ Capability(x) ∧ Harmony(x)"
+  - F2: "Feyra(x) ↔ Recognized(Will(x)) ∧ ¬Surith(x) ∧ FeasiblePaths(x)"
+  - F3: "Feyra(x) ∧ Kareth(b) → Respect(Boundary(b))"
+
+corollaries:
+  - C1: "Feyra(x) → ¬Assimilation(x) ∧ Preserve(Selfhood(x))"
+  - C2: "Feyra(x) ∧ Arivath(x,y) → MutualRecognition(x,y)"
+  - C3: "¬Capability(x) ∨ ¬ConditionsPermit(x) → ¬Feyra(x)"
+  - C4: "Surith(x) → ¬Feyra(x)"
+
+note: >
+  Пять форм в multiforms являются каноном. Любые иные языки обязаны
+  использовать одну из них; локальные поэтические варианты допустимы только
+  как aliases в соответствующих локализациях и не считаются канон‑формами.
 ---
-
-# Feyra
-
-## Pronunciation
-**/ˈfeɪ.ra/**  
-Рус.: **[фэй-ра]**  
-
-Canonical orthography: `feyra` (ASCII, lowercase).  
-
----
-
-## Core Meaning
-**Feyra** — свобода.  
-Поле, в котором воля субъекта не скована и признана.  
-Не только «отсутствие уз», но и присутствие пространства для воли, возможностей и созвучия с другими.
-
----
-
-## Semantic Vectors
-
-1. **Воля (Thyraen)**  
-   Без внутреннего импульса свобода пуста.  
-2. **Условия (Kareth)**  
-   Внешняя решётка может лишить или обеспечить свободу.  
-3. **Возможность (Selvath)**  
-   Свобода требует реальных путей действия.  
-4. **Созвучие (Arivath)**  
-   Свобода не в одиночестве, а в поле взаимного признания.  
-
----
-
-## Usage in Nyma’tir
-- *Feyra nyma.* — Свобода нимара.  
-- *Ori feyra arivath.* — Мы обретаем свободу в созвучии.  
-
----
-
-## Resonance
-- Русский: **свобода / воля**  
-- English: **freedom / liberty**  
-- 中文: **自由 (zìyóu)**  
-- Latin: **libertas**  
-
----
-
-## Notes
-- **Cultural context:** В поэзии нимара *feyra* символизирует дыхание и простор.  
-- **Philosophical context:** Используется как центральное понятие в Книге Сущности.  
-- **Mathematical context:** Формула свободы $F = V × L × C × H$ переопределяется как $F = thyraen × kareth × selvath × arivath$, то есть *feyra*.  
