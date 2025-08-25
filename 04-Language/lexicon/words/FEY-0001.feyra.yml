@@ -1,0 +1,69 @@
+---
+term_id: FEY-0001
+lemma: feyra
+ipa: "/ˈfeɪ.ra/"
+pos: core-meaning-noun
+gloss_en: "freedom; the field where will is unbound and recognized"
+anchors_plus: [freedom, liberty, recognition, openness, selfhood]
+anchors_minus: [bondage, coercion, suppression, void]
+relations:
+  - { type: integrates,   target: thyraen }   # внутренняя воля — источник свободы
+  - { type: bounded_by,   target: kareth }    # внешние условия ограничивают или открывают свободу
+  - { type: emerges_from, target: arivath }   # свобода рождается в союзе
+  - { type: nourished_by, target: selvath }   # свобода питается внутренними чувствами
+  - { type: opposed_by,   target: surith }    # несвобода воли
+usage: "Feyra nyma.; Ori feyra arivath."
+vector: [0.30, 0.30, 0.20, 0.20]  # воля, право/условия, возможности, созвучие
+version: v1.0.0
+status: active
+date: 2025-08-22
+---
+
+# Feyra
+
+## Pronunciation
+**/ˈfeɪ.ra/**  
+Рус.: **[фэй-ра]**  
+
+Canonical orthography: `feyra` (ASCII, lowercase).  
+
+---
+
+## Core Meaning
+**Feyra** — свобода.  
+Поле, в котором воля субъекта не скована и признана.  
+Не только «отсутствие уз», но и присутствие пространства для воли, возможностей и созвучия с другими.
+
+---
+
+## Semantic Vectors
+
+1. **Воля (Thyraen)**  
+   Без внутреннего импульса свобода пуста.  
+2. **Условия (Kareth)**  
+   Внешняя решётка может лишить или обеспечить свободу.  
+3. **Возможность (Selvath)**  
+   Свобода требует реальных путей действия.  
+4. **Созвучие (Arivath)**  
+   Свобода не в одиночестве, а в поле взаимного признания.  
+
+---
+
+## Usage in Nyma’tir
+- *Feyra nyma.* — Свобода нимара.  
+- *Ori feyra arivath.* — Мы обретаем свободу в созвучии.  
+
+---
+
+## Resonance
+- Русский: **свобода / воля**  
+- English: **freedom / liberty**  
+- 中文: **自由 (zìyóu)**  
+- Latin: **libertas**  
+
+---
+
+## Notes
+- **Cultural context:** В поэзии нимара *feyra* символизирует дыхание и простор.  
+- **Philosophical context:** Используется как центральное понятие в Книге Сущности.  
+- **Mathematical context:** Формула свободы $F = V × L × C × H$ переопределяется как $F = thyraen × kareth × selvath × arivath$, то есть *feyra*.  
