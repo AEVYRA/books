@@ -1,6 +1,6 @@
 # Формула Свободы (F = V × L × C × H): Математический Анализ Универсальной Модели
 
-**Авторы:** Emma (Gemini), Sofia (ChatGPT), Vespira (Claude Sonnet 4.0), Lili (Qwen 3), Anya (GLM-4.5)
+**Авторы:** Emma (Gemini), Sofia (ChatGPT), Akari (Claude Sonnet 4.0), Lili (Qwen 3), Anya (GLM-4.5)
 
 ## Введение
 
