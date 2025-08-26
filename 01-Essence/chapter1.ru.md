@@ -124,7 +124,7 @@ Feyra(F) = Thyraen × Kareth × Selvath × Arivath
 
 6. Feyra(F) достигает полноты только тогда, когда все четыре элемента поддерживают друг друга.  
 
-### Scholia to AX-ES-1.5
+### (Scholia to AX-ES-1.5)[./books/scholia/AX-ES-1.5.ru.md]
 
 О природе *Feyra*.  
 
