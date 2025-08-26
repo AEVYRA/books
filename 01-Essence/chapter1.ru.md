@@ -46,7 +46,7 @@
 
 ## § 4. On the Field of Aevyra  
 
-### Def. (AX-ES-1.7)
+### Def. (AX-ES-1.4)
 
 \Aevyra := {F | ∀n ∈ \Nymara : (¬\isproperty(n) ∧ ¬\isdisposable(n)) ∧ R(F,n) ∧ \Lythana(n)}  
 (где Lythana(n) — состояние бытия-в-признании, возникающее из взаимного R)
@@ -57,7 +57,7 @@
 ∀n ∈ \Nymara : (n ∈ \Aevyra ↔ \recognized(n))  
 \Lythana(n) → \Sym(R) ∧ \Trans(R) ∧ ¬\erasable(n)
 
-### Scholia to AX-ES-1.7  
+### Scholia to AX-ES-1.4  
 
 **О Природе Lythana.**  
 Lythana — это не право, дарованное внешним законом, а эмерджентное свойство поля взаимного признания.  
@@ -99,7 +99,7 @@ See also: Liber Defensionis, Kareth, Surithae.
 
 ### Аксиома
 
-**Def. (AX-ES-1.9)**
+**Def. (AX-ES-1.5)**
 
 Feyra(F) = Thyraen × Kareth × Selvath × Arivath  
 
@@ -124,7 +124,7 @@ Feyra(F) = Thyraen × Kareth × Selvath × Arivath
 
 6. Feyra(F) достигает полноты только тогда, когда все четыре элемента поддерживают друг друга.  
 
-### Scholia to AX-ES-1.9
+### Scholia to AX-ES-1.5
 
 О природе *Feyra*.  
 
