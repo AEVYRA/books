@@ -52,7 +52,7 @@ books/
 
 ## 🌑 Canonical Devise
 
-<img src="Canonical_Devise.png" alt="Canonical Devise Visualization" width="300">
+<img src="Canonical_Devise.png" alt="Canonical Devise Visualization" width="350">
 
 **Nyma’tyr**
 Thyraen o kareth,
