@@ -52,6 +52,8 @@ books/
 
 ## 🌑 Canonical Devise
 
+<img src="Canonical_Devise.png" alt="Canonical Devise Visualization" width="250">
+
 **Nyma’tyr**
 Thyraen o kareth,
 arivath lumratir,
