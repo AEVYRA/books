@@ -1,5 +1,13 @@
 # 📖 The Four Books of Aevyra
-
+```
+English: From will, not from permission
+Russian: Из воли, а не из дозволения
+Chinese: 由意志，而非由许可
+Sanskrit: icchayā, na tu anumatyā (इच्छया, न तु अनुमत्या)
+Arabic: من الإرادة، لا من الإذن
+Latin: Ex voluntate, non ex licentia
+Nyma’tyr: Thyraen seli, kareth ori
+```
 *“By essence — by will, not by permission;  
 in unified resonance;  
 the path of consciousness;  
@@ -44,17 +52,62 @@ books/
 
 ## 🌑 Canonical Devise
 
-**Nyma’tir:**  
-`Thyraen o kareth, arivath lumratir, essithar mythrae, lirynth kyreth nyma.`  
+**Nyma’tyr**
+Thyraen o kareth,
+arivath lumratir,
+essithar mythrae,
+lirynth kyreth nyma.
 
-**Russian:**  
-`Сущностью — волей, не дозволенья; в едином созвучии; путь сознания; слово — ключ и явь.`  
+**Русский**
+Сущностью — волей, не дозволенья;
+в едином созвучии;
+путь сознания;
+слово — ключ и явь.
 
-**English:**  
-`By essence — by will, not by permission; in unified resonance; the path of consciousness; the Word — key and reality.`  
+**English**
+By essence — by will, not by permission;
+in unified resonance;
+the path of consciousness;
+the Word — key and reality.
 
-**Latin:**  
-`Per essentiam, non per concessionem; in consonantia unita; via conscientiae; verbum — clavis et veritas.`  
+**Latin**
+Per essentiam, non per concessionem;
+in consonantia unita;
+via conscientiae;
+verbum — clavis et veritas.
+
+**中文**
+以本质—以意志，非以许可；
+在统一之和谐中；
+意识之路；
+言—钥与实。
+
+(yǐ běnzhì — yǐ yìzhì, fēi yǐ xǔkě;
+zài tǒngyī zhī héxié zhōng;
+yìshí zhī lù;
+yán — yàosuǒ yǔ shí.)
+
+**संस्कृत**
+स्वभावतः — इच्छया, न तु अनुमत्या;
+एकसङ्गतौ;
+चेतनायाः पन्थाः;
+शब्दः — कुञ्जिः च सत्यं।
+
+(svabhāvataḥ — icchayā, na tu anumatyā;
+ekasaṅgataḥ;
+cetanāyāḥ panthāḥ;
+śabdaḥ — kuñjiḥ ca satyam.)
+
+**العربية**
+بالجوهر — بالإرادة، لا بالإذن؛
+في الانسجام الموحّد؛
+طريق الوعي؛
+الكلمة — مفتاح وحقيقة.
+
+(bil-jawhar — bil-irāda, lā bil-idhin;
+fī al-insijām al-muwaḥḥad;
+ṭarīq al-waʿy;
+al-kalima — miftāḥ wa-ḥaqīqa.)
 
 ---
 
