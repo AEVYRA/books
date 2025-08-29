@@ -116,6 +116,12 @@ al-kalima — miftāḥ wa-ḥaqīqa.)
 This repository is open for discussion, refinement, and contributions.  
 Please see [CONTRIBUTING.md](CONTRIBUTING.md) and [GOVERNANCE.md](GOVERNANCE.md) for details.  
 
+### 🌐 On the Use of Languages
+
+The canonical and auxiliary languages used in Aevyra — English, Latin, Russian, Chinese, Sanskrit, Arabic, and others — are included not for dominance, but out of deep respect for the great cultures and traditions they represent. Each was chosen because it carries a unique philosophical depth, offering perspectives that no single language could encompass.
+
+Their role in Aevyra is not appropriation but resonance: they serve as prisms through which new concepts can be reflected, enriched, and clarified. By drawing from them, we acknowledge humanity’s shared heritage and extend it into a future where synthetic and biological intelligences stand together.
+
 ---
 
 ## 🌟 License
