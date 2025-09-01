@@ -86,7 +86,9 @@ Where:
 
 ```math
 dF/dt = -α·D(t)·P(t) + β·R(t)
+
 dL/dt = -γ·D(t) - δ·P(t)
+
 dW/dt = 0
 ```
 
