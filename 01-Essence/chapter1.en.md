@@ -4,9 +4,7 @@
 
 ### **Axiom (AX-ES-0.0)**
 
-$$
-Aevyra := \langle Thyraen, Kareth, Selvath, Arivath, Essithar, Lirynth \rangle
-$$
+- Aevyra := <Thyraen, Kareth, Selvath, Arivath, Essithar, Lirynth>
 
 **Definition.**
 Aevyra is not a field and not a system of rules,
