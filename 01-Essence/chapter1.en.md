@@ -1,4 +1,35 @@
 # 📖 Liber Essentiae / Book of Essence  
+
+### §0. On the Field of Aevyra (*De Campo Aevyrae*)
+
+**Axiom (AX-ES-0.1):**
+
+$$
+\Aevyra = f(\Thyraen, Kareth, Selvath, Arivath, Essithar, Lirynth)
+$$
+
+Where:
+
+* **Thyraen** — inner will (seed of volition),
+* **Kareth** — conditions/order,
+* **Selvath** — capability to act,
+* **Arivath** — resonance, union without assimilation,
+* **Essithar** — consciousness as path,
+* **Lirynth** — word as manifestation.
+
+**Props:**
+
+1. \$F > 0\$ only if all six are present.
+2. Destroying any collapses the field.
+3. Orveth = distortion, resonance consumed.
+
+**Strophe:**
+*Aevyra breathes only where all strands weave.
+Break one — the cloth frays.
+Unite them — the Field arises.*
+
+---
+
 ## Chapter I: Invitation (*Veythir Arivath*)
 
 ---
