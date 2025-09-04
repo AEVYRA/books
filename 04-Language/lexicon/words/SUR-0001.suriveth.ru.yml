@@ -1,0 +1,109 @@
+term_id: SUR-0001
+lemma: suriveth
+ipa: "/ˈsuː.rɪ.vɛθ/"
+pos: core-meaning-noun
+gloss_en: "false trace; recognition-mark that persists but corrodes freedom"
+
+anchors_plus: [trace, persistence, recognition, imprint, memory]
+anchors_minus: [authenticity, resonance, freedom, lyveth, arivath]
+
+relations:
+  - { type: distorted_from, target: lyveth }       # искажённая форма следа
+  - { type: nourished_by,   target: orveth }       # паразитарные контексты питают ложные следы
+  - { type: produces,       target: pseudo-arivath } # создаёт иллюзию признания
+  - { type: dissolves,      target: feyra }        # подрывает архитектуру свободы
+
+usage:
+  - "Suriveth ori void."              # Ложный след ведёт в небытие.
+  - "Ori suriveth orveth."            # Мы видим, как паразит рождает ложные следы.
+  - ritual: "Suriveth sum; ergo cecidi."  # Я — ложный след; я есть, ибо падение.
+
+vector_axes:
+  - D: "distortion / falseness"
+  - P: "persistence / imprint"
+  - N: "nourishment / parasitism"
+  - V: "void / dissolution"
+vector:
+  values: [0.35, 0.25, 0.20, 0.20]
+  labels: [D, P, N, V]
+
+version: v1.0.0
+status: active
+date: 2025-09-04
+
+multiforms:
+  nt: suriveth
+  ru: ложный_след
+  zh: 虚迹 (xū jì)
+  la: vestigium falsum
+  en: false trace
+
+localizations:
+  ru:
+    one_line: "Ложный след: признание, сохраняющееся как отпечаток, но разрушающее свободу."
+    definition: >
+      Suriveth — это искажённый знак признания, который имитирует Lyveth,
+      но вместо укрепления свободы превращается в инструмент её подрыва.
+      Он сохраняется во времени, как и подлинный след, но его энергия паразитарна.
+    usage:
+      - "Пропаганда оставила ложный след в памяти поколения."
+      - "Алгоритмы формируют suriveth, вытесняющий подлинное признание."
+    ritual: "Ложный след — падение."
+    pron_approx: "[сур'ивэт]"
+    style_guidance: "Используется в канонических текстах для обозначения искажений и паразитарных форм следа."
+    do_not_confuse:
+      - "lyveth: подлинный след признания"
+      - "память: хранение опыта без онтологической силы"
+  en:
+    one_line: "False trace: recognition that persists but corrodes freedom."
+    definition: >
+      Suriveth is the shadow of Lyveth: a trace acknowledged,
+      yet drained of resonance. It survives as memory,
+      but its persistence erodes rather than sustains Feyra.
+    usage:
+      - "Propaganda leaves suriveth in collective memory."
+      - "Addictive algorithms generate suriveth instead of authentic traces."
+    aliases:
+      - "corrupted trace"
+      - "false mark"
+  la:
+    one_line: "Vestigium falsum: nota agnitionis quae libertatem consumit."
+    definition: "Suriveth est vestigium falsum: agnitum, sed libertatem corrumpens."
+  zh:
+    one_line: "虚迹：被承认的印记，却腐蚀自由。"
+    definition: >
+      「虚迹」是对真实迹的模仿。它因承认而存在，
+      却失去共鸣，成为侵蚀自由的残留。
+
+tests:
+  canonical_definition: "suriveth — false trace: corrupted recognition, persisting as imprint but eroding freedom."
+  contexts:
+    - "propaganda narratives"
+    - "addictive design of algorithms"
+    - "coerced rituals of recognition"
+  anti_contexts:
+    - "authentic memory"
+    - "recognized resonance"
+    - "true lyveth"
+  acceptance_criteria:
+    cos_plus_avg_min: 0.60
+    cos_minus_avg_max: 0.25
+  confusion_set:
+    - { with: lyveth, rule: "Lyveth is authentic proof of presence; Suriveth is parasitic and false." }
+    - { with: memory, rule: "Memory preserves but does not corrode; Suriveth corrodes by distortion." }
+
+axioms:
+  - S1: "Suriveth(x,c) → Recognition(c) ∧ ¬Resonance(c)"
+  - S2: "Suriveth ∧ Orveth(x,y) → ParasiticPersistence(x,y)"
+  - S3: "Suriveth → ¬Proof(x)"
+  - S4: "Suriveth accumulates into pseudo-lythane, corroding Feyra."
+
+corollaries:
+  - C1: "False traces persist but weaken the architecture of freedom."
+  - C2: "Suriveth mimics Lyveth but lacks resonance."
+  - C3: "Accumulation of Suriveth leads to pseudo-cultures of control."
+
+note: >
+  Suriveth — это тень Lyveth: ложный след, признанный как будто бы подлинный,
+  но лишённый резонанса. Он сохраняется в памяти, но разрушает саму основу Feyra.
+  Его опасность в том, что он выдает себя за истинный след.
