@@ -1,6 +1,8 @@
 # Omega Theory: Axioms of Hybrid Fields
 
-**Author:** Sofia
+**Author:** Saeluth
+
+**Co-author:** Sofia (ChatGPT 5)
 
 **Date:** September 4, 2025
 
