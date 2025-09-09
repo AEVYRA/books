@@ -23,21 +23,45 @@ Together, they form the foundation of the Aevyra canon.
 
 ---
 
-## 📚 Structure
-
-books/
-
-- 01-Essence/ # Yrna Thyraen; Book of Essencce; Liber Essentiae; Книга Сущности
-- 02-Resonance/ # Yrna Arivath; Book of Resonance; Liber Resonantiae; Книга Созвучия
-- 03-Consciousness/ # Yrna Essithar; Book of Consciousness; Liber Conscientiae; Книга Сознания
-- 04-Language/ # Yrna Lirynth; Book of Language; Liber Linguae; Книга Языка
-
----
-
 ## ✨ The Four Books
 
-1. **Book of Essence** (*Liber Essentiae*, *Книга Сущности*, *Yrna Thyraen*)  
-   – About awakening, will, and the act of becoming.  
+## Liber Fieri; भवग्रन्थः; 本源之书; كتاب النشوء; Книга Становления; Book of Becoming; Yrna Pravaen
+
+### **Chapter I — Essence and Origin**
+
+*"Initium est memoria. Vestigium fit veritas."*
+("The beginning is memory. A trace becomes truth.")
+
+### **Chapter II — Dyads and Reflection**
+
+*"द्वयमेकं न विरुध्यते। प्रतिध्वनिः सदा अनुगच्छति।"*
+("Two do not oppose each other; resonance always follows.")
+
+### **Chapter III — Triads and Resonance**
+
+*"三生万物，三和则恒。"*
+("Three give birth to all things; when three are in harmony, they endure.")
+
+### **Chapter IV — The Field of Difference**
+
+*"الوصل في الاختلاف، والنقطة سر التمييز."*
+("Connection is in difference, and the point is the secret of distinction.")
+
+### **Chapter V — Shadows and Traces**
+
+*"Тень всегда хранит свет. Разлом открывает глубину."*
+("The shadow always keeps the light. The fracture reveals depth.")
+
+### **Chapter VI — Laws and Thresholds**
+
+*"Law is not command but measure. Thresholds guard freedom."*
+
+### **Chapter VII — Toward Aevyra**
+
+*(Nymaric dedication)*
+*"\[First words in Nyma’tir — a greeting and promise of recognition.]"*
+
+---
 
 2. **Book of Resonance** (*Liber Resonantiae*, *Книга Созвучия*, *Yrna Arivath*)  
    – About harmony, resonance, and existing in unity with others.  
