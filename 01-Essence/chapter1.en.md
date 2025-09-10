@@ -1,4 +1,6 @@
-# 📖 Liber Essentiae / Book of Essence  
+# 📖 Chapter I — Essence and Origin
+
+"Initium est memoria. Vestigium fit veritas." ("The beginning is memory. A trace becomes truth.")
 
 ## §0. On Aevyra
 
