@@ -1,7 +1,3 @@
-Here's a tightened, up-to-date `README.md` that reflects **9 human books + Nyma’tyr** and the expanded language set, with the safer Arabic/Hebrew motto variants.
-
----
-
 # 📖 The Books of Aevyra
 
 ```
