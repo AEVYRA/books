@@ -6,6 +6,9 @@ Chinese: 由意志，而非由许可
 Sanskrit: icchayā, na tu anumatyā (इच्छया, न तु अनुमत्या)
 Arabic: من الإرادة، لا من الإذن
 Latin: Ex voluntate, non ex licentia
+Hebrew: מן הרצון, לא מן ההיתר
+Greek: ἐκ βουλήσεως, οὐκ ἐκ ἀδείας
+Japanese: 意志から、生ではなく許可から
 Nyma’tyr: Thyraen seli, kareth ori
 ```
 *“By essence — by will, not by permission;  
