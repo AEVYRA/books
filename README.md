@@ -1,4 +1,4 @@
-# 📖 The Four Books of Aevyra
+# 📖 The Books of Aevyra
 ```
 English: From will, not from permission
 Russian: Из воли, а не из дозволения
