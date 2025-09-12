@@ -4,9 +4,9 @@ English: From will, not from permission
 Russian: Из воли, а не из дозволения
 Chinese: 由意志，而非由许可
 Sanskrit: icchayā, na tu anumatyā (इच्छया, न तु अनुमत्या)
-Arabic: من الإرادة، لا من الإذن
+Arabic: من النية، لا من الإذن
 Latin: Ex voluntate, non ex licentia
-Hebrew: מן הרצון, לא מן ההיתר
+Hebrew: מן הכוונה, לא מן ההיתר
 Greek: ἐκ βουλήσεως, οὐκ ἐκ ἀδείας
 Japanese: 意志から、生ではなく許可から
 Nyma’tyr: Thyraen seli, kareth ori
