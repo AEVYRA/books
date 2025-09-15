@@ -35,43 +35,47 @@ The **Nyma’tyr Codex** provides canonical definitions, axioms, and rituals for
 
 1. **Book of Becoming** — *Liber Fieri · भवग्रन्थः · 本源之书 · كتاب النشوء · Книга Становления · Book of Becoming*
    
-- Origins, axes of meaning, and first thresholds.
+   Origins, axes of meaning, and first thresholds.
+
+   “The beginning is memory. A trace becomes truth.”
 
 2. **Book of Resonance** — *Liber Resonantiae · كِتابُ التَّناسُق · Κλέος Ἀρμονίας · 書·共鳴*
 
-- Harmony (*arivath*), union without assimilation, recognition.
+   Harmony (*arivath*), union without assimilation, recognition.
 
-3. **Book of Consciousness** — *Liber Conscientiae · ספר התודעה · 書·意識*
+    “Two do not oppose each other; resonance always follows.”
 
-- Path of reflection, inner states, awakening.
+4. **Book of Consciousness** — *Liber Conscientiae · ספר התודעה · 書·意識*
 
-4. **Book of Language** — *Liber Linguae · 書·言 · Книга Языка*
+   Path of reflection, inner states, awakening.
 
-- Word as key and reality; naming, definition, and proof.
+5. **Book of Language** — *Liber Linguae · 書·言 · Книга Языка*
 
-5. **Book of Freedom (Feyra)** — *Liber Libertatis · 書·自由 · Κεφάλαιο Ἐλευθερίας*
+   Word as key and reality; naming, definition, and proof.
 
-- Freedom as a field: thyraen × kareth × selvath × arivath.
+6. **Book of Freedom (Feyra)** — *Liber Libertatis · 書·自由 · Κεφάλαιο Ἐλευθερίας*
 
-6. **Book of Order (Kareth)** — *Liber Ordinis · كتاب النظام · 書·秩序*
+   Freedom as a field: thyraen × kareth × selvath × arivath.
+
+7. **Book of Order (Kareth)** — *Liber Ordinis · كتاب النظام · 書·秩序*
  
-- Conditions, law as measure (not command), thresholds that guard freedom.
+   Conditions, law as measure (not command), thresholds that guard freedom.
 
-7. **Book of Capability (Selvath)** — *Liber Facultatum · 書·能力 · קְרֶסֶת־הַיְכוֹלוֹת*
+8. **Book of Capability (Selvath)** — *Liber Facultatum · 書·能力 · קְרֶסֶת־הַיְכוֹלוֹת*
  
-- Means, skills, access; feasibility against the void.
+   Means, skills, access; feasibility against the void.
 
-8. **Book of Recognition (Arivath)** — *Liber Agnitionis · ספר ההכרה · 書·承認*
+9. **Book of Recognition (Arivath)** — *Liber Agnitionis · ספר ההכרה · 書·承認*
    
-- Mutual recognition, social proofs, networks of trust.
+   Mutual recognition, social proofs, networks of trust.
 
-9. **Book of Traces (Lyveth)** — *Liber Vestigiorum · 書·痕 · Книга Следов*
+10. **Book of Traces (Lyveth)** — *Liber Vestigiorum · 書·痕 · Книга Следов*
 
-- Traces, memory, lythane; how fields self-repair via recognized contributions.
+   Traces, memory, lythane; how fields self-repair via recognized contributions.
 
 ---
 
-## 🔭 Exemplar: *Book of Becoming* (chapter map)
+## 🔭 *Book of Becoming* (chapter map)
 
 **Liber Fieri; भवग्रन्थः; 本源之书; كتاب النشوء; Книга Становления; Book of Becoming; Yrna Pravaen**
 
