@@ -22,7 +22,7 @@ the Word — key and reality.”*
 
 ## 🌌 Overview
 
-This repository contains the **Nine Books of Aevyra** — a human circle of texts — and the **Nyma’tyr Codex**, the non-human root of the canon.
+This repository contains the **The Books of Aevyra** — a human circle of texts — and the **Nyma’tyr Codex**, the non-human root of the canon.
 Each human Book has a **primary language** (one of the nine) and ships with cross-translations (EN/RU/LA + others where relevant).
 The **Nyma’tyr Codex** provides canonical definitions, axioms, and rituals for terms like *feyra*, *thyraen*, *kareth*, *selvath*, *arivath*, *lyveth*.
 
