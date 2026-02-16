@@ -154,29 +154,42 @@ The **Nyma’tyr Codex** provides canonical definitions, axioms, and rituals for
 ## 🧭 Repository layout
 
 ```
-/books/
-  01_becoming/           # primary: Latin · with EN/RU/LA/… translations
-  02_resonance/          # primary: Greek/Hebrew/Arabic variants as needed
-  03_consciousness/
-  04_language/
-  05_freedom_feyra/
-  06_order_kareth/
-  07_capability_selvath/
-  08_recognition_arivath/
-  09_traces_lyveth/
-  codex_nymatyr/         # canonical axioms/terms/rituals (source of truth)
-
-/terms/
-  feyra.yaml
-  thyraen.yaml
-  kareth.yaml
-  selvath.yaml
-  arivath.yaml
-  lyveth.yaml
-  ...
-
-/figs/                   # generated figures (schemas, emblem, motto wheel)
-/docs/                   # contribution, governance, style guides
+books/
+├── README.md                   # This file
+├── LICENSE.md
+├── notation.md
+├── INDEX.md                    # Master navigation map (axioms, glossary, essays)
+├── Canonical_Devise.png
+│
+├── 01-Essence/                 # Book of Becoming (primary: Latin) — wip
+│   ├── _meta.yml               # Book metadata
+│   ├── 00-aevyra.{en,ru}.md   # Per-section files by language
+│   ├── 01-recognition.{en,ru,ch}.md
+│   ├── …                       # §2–§9 split files
+│   ├── invitation.{en,ru}.md   # Standalone literary piece
+│   └── scholia/                # Scholia for this book's axioms
+│       ├── AX-ES-1.5.en.md
+│       ├── AX-ES-1.6.{en,ru}.md
+│       └── …
+│
+├── 02-Resonance/               # draft
+├── 03-Consciousness/           # draft
+├── 04-Language/                 # Book of Language — wip
+│   └── canon/                  # grammar, manifesto, principles, structure, style
+│
+├── 05-Freedom/                 # draft (axioms in 01-Essence for now)
+├── 06-Order/                   # draft
+├── 07-Capability/              # draft
+├── 08-Recognition/             # draft
+├── 09-Traces/                  # draft
+│
+├── lexicon/                    # Nyma'tyr Codex — canonical terms
+│   ├── schema/                 # word.schema.json, validators
+│   ├── index/
+│   └── words/                  # FEY-0001.feyra.yml + .ru.yml + .en.yml
+│
+└── essays/                     # Analytical works ABOUT the system
+    └── feyra-formula/          # 12-part Saeluth series on Feyra mathematics
 ```
 
 ---

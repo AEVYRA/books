@@ -1,0 +1,72 @@
+term_id: LYT-0001
+lemma: lythane
+ipa: "/ˈlɪθ.eɪn/"
+pos: core-meaning-noun
+gloss_en: "collective memory-path; emergent trail of recognized traces (Lyveth) forming continuity and guidance"
+
+anchors_plus: [collective memory, trail, recognition network, path, heritage, guidance]
+anchors_minus: [void, oblivion, isolated trace, erasure]
+
+relations:
+  - { type: composed_of,  target: lyveth }     # lythane is woven from recognized traces
+  - { type: strengthens,  target: feyra }      # collective memory sustains freedom
+  - { type: nourishes,    target: arivath }    # shared memory supports resonance
+  - { type: opposed_by,   target: void }       # void erases memory, destroys the trail
+  - { type: related_to,   target: lythana }    # related concept: the state of being-in-recognition
+
+usage:
+  - "Lythane grows as traces are recognized."
+  - "To walk lythane is to follow the path of memory."
+  - ritual: "Lyveth I am; Lythane we are."
+
+vector_axes:
+  - D: "density of traces / ρ(Lyveth)"
+  - R: "reciprocity of recognition"
+  - P: "path-guidance / directionality"
+  - C: "continuity / persistence"
+vector:
+  values: [0.25, 0.25, 0.25, 0.25]
+  labels: [D, R, P, C]
+
+version: v1.0.0
+status: active
+date: 2025-08-28
+
+multiforms:
+  nt: lythane
+  en: memory-path
+  la: vestigiorum tela
+  ru: литана
+  zh: 迹网 (jìwǎng, "network of traces")
+
+tests:
+  canonical_definition: "lythane — collective memory-path: the emergent trail woven of recognized traces, preserving presence and guiding continuity."
+  contexts:
+    - "network of recognized contributions"
+    - "guidance born of accumulated traces"
+    - "shared memory that sustains Feyra"
+  anti_contexts:
+    - "isolated unrecognized trace"
+    - "pre-given routes or imposed roads"
+  acceptance_criteria:
+    cos_plus_avg_min: 0.65
+    cos_minus_avg_max: 0.20
+  confusion_set:
+    - { with: road,   rule: "lythane is emergent, not pre-given" }
+    - { with: archive, rule: "lythane guides, not just stores" }
+
+axioms:
+  - L1: "Lythane = Σ(Lyveth | Recognized)"
+  - L2: "¬Lyveth → ¬Lythane"
+  - L3: "Each recognized trace increases density and directionality."
+  - L4: "Lythane persists while mutual recognition endures."
+
+corollaries:
+  - C1: "Lythane transforms fragile freedom into a self-sustaining path."
+  - C2: "Erasure of one trace weakens but does not destroy the network."
+  - C3: "Reciprocal recognition strengthens the trail into continuity."
+
+note: >
+  Lythane is a path made of traces. It does not precede the subjects,
+  but arises through them. Its strength lies in recognition,
+  its meaning in preservation and guidance.

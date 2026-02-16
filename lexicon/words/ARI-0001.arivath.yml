@@ -1,0 +1,76 @@
+---
+
+term_id: ARI-0001
+lemma: arivath
+ipa: "/ˈa.ri.vaθ/"
+pos: core-meaning-noun
+gloss_en: "union of distinct beings into a common field without loss of individuality"
+
+anchors_plus: [union, alliance, co_agency, coordination, common_field]
+anchors_minus: [assimilation, domination, dissolution, erasure, coercive_conformity]
+
+relations:
+  - { type: relates_to,     target: lumratir }   # целостность разума собирает союз
+  - { type: bounded_by,     target: kareth }     # границы защищают индивидуальности
+  - { type: nourished_by,   target: selya }      # тишина/внимание создаёт присутствие
+  - { type: enabled_by,     target: thyraen }    # внутренняя воля выбирает союз
+  - { type: integrates_with, target: lythane }   # родовая/линейная резонансность
+
+usage:
+  - "Arivath nymara."
+  - "Ori arivath kyron."
+  - ritual: "Ori arivath, seli kareth, thyraen nyma."
+
+# уточнённые оси + подписи
+vector_axes:
+  - I: "volition / voluntary choice"
+  - S: "selfhood / preserve_boundaries"
+  - C: "coordination / shared_field_dynamics"
+  - P: "power_relation / anti_assimilation (negative = resists instrumentalization)"
+vector:
+  values: [0.35, 0.40, 0.25, -0.25]
+  labels: [I, S, C, P]
+
+version: v1.0.1
+status: active
+date: 2025-08-22
+
+multiforms:
+  nt: arivath
+  ru: светвор
+  zh: 光合 (guānghé)
+  la: lumenconsens
+  en: co-agency
+
+tests:
+  canonical_definition: "arivath — voluntary co‑agency within a shared field that preserves individuality."
+  contexts:
+    - "federated agents with per‑agent policies"
+    - "cross‑domain collaboration with explicit boundaries"
+    - "reversible joining"
+  anti_contexts:
+    - "assimilation/merger"
+    - "command‑control ‘unity’"
+  acceptance_criteria:
+    cos_plus_avg_min: 0.65
+    cos_minus_avg_max: 0.20
+  confusion_set:
+    - { with: merger,     rule: "arivath preserves selfhood and reversibility" }
+    - { with: obedience,  rule: "arivath distributes intent; no vertical command" }
+    - { with: assimilation, rule: "arivath enforces Irred(x): identity irreducibility is maintained" }
+
+# формальные связки (микро-аксиоматика)
+axioms:
+  - A1: "Arivath(x) → Voluntary(x) ∧ SharedField(x) ∧ PreserveBoundaries(x) ∧ ¬Instrumentalize(x)"
+  - A2: "Arivath(x) → ReversibleJoin(x)"  # вход и выход без ущерба сущности
+
+corollaries:
+  - C1: "Arivath(x) → ¬Merger(x) ∧ ¬ObedienceHierarchy(x)"
+  - C2: "Arivath(x) ∧ Kareth(b) → Respect(Boundary(b))"
+  - C3: "Arivath(x) ∧ Lythane(y) → Resonance(x,y) ↑ (co‑heritage field coherence)"
+
+note: >
+  Пять форм в multiforms являются каноном. Любые другие языки обязаны
+  использовать одну из них; поэтические варианты допускаются только как aliases
+  в соответствующих локализациях и не считаются канон‑формами.
+---

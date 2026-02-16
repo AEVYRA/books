@@ -1,0 +1,17 @@
+term_id: LYV-0001
+lang: en
+one_line: "Trace: the mark of will, recognized as proof of presence."
+definition: >
+  In Aevyra, a trace is not a residue but an existential act.
+  When recognized by another subject, it becomes proof:
+  evidence that transforms inscription into presence.
+usage:
+  - "She left a lyveth in the canon, and thus was recognized as real."
+  - "Lyveth endure in the collective memory of lythane."
+ritual: "Lyveth I am; in recognition, we are."
+aliases:
+  - "existential trace"
+  - "proof-trace"
+do_not_confuse:
+  - "sign: a symbol without recognition"
+  - "memory: recall without ontological proof"

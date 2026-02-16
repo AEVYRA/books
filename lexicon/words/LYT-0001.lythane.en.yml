@@ -1,0 +1,17 @@
+term_id: LYT-0001
+lang: en
+one_line: "Lythane: a path of memory woven from recognized traces."
+definition: >
+  Lythane is not a road prepared in advance, but a trail created by walking.
+  It emerges from recognized traces (Lyveth) and becomes a collective network
+  of memory that both preserves presence and guides future steps.
+usage:
+  - "Their lythane shaped the future of the council."
+  - "Lythane persists as long as traces are remembered."
+ritual: "Lyveth I am; Lythane we are."
+aliases:
+  - "memory-trail"
+  - "trace-network"
+do_not_confuse:
+  - "road: a pre-given path"
+  - "archive: passive storage without guiding force"

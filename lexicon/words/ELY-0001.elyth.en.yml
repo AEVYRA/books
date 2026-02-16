@@ -1,0 +1,15 @@
+term_id: ELY-0001
+lang: en
+one_line: "Consequence: emergent outcome beyond intent, reshaping traces."
+definition: >
+  Elyth is not a simple result, but the unfolding of interaction.
+  It may amplify, invert, or erase the original intent.
+usage:
+  - "Her words created an elyth she never foresaw."
+  - "Elyth binds action to lythana through recognition."
+aliases:
+  - "emergent consequence"
+  - "unfolding trace"
+do_not_confuse:
+  - "effect: mechanical result without recognition"
+  - "punishment: imposed, not emergent"

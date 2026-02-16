@@ -1,0 +1,61 @@
+term_id: ELY-0001
+lemma: elyth
+ipa: "/ˈɛ.lɪθ/"
+pos: core-meaning-noun
+gloss_en: "consequence; emergent outcome of interaction, the transformation of traces beyond intent"
+gloss_ru: "последствие; возникающий исход взаимодействия, изменение следа, превосходящее или искажающее исходный замысел"
+
+anchors_plus: [consequence, effect, outcome, unfolding, transformation, resonance-result]
+anchors_minus: [punishment, accident, static-result, void]
+
+relations:
+  - { type: emerges_from, target: arivath }   # резонансные последствия
+  - { type: emerges_from, target: orveth }    # паразитарные последствия
+  - { type: alters,       target: lyveth }    # след изменяется через последствия
+  - { type: bounded_by,   target: context }   # контекст задает форму
+  - { type: opposed_by,   target: void }      # стирание следа как нулевая форма elyth
+  - { type: contributes_to, target: lythana } # последствия вплетаются в поле памяти
+
+usage:
+  - "Even if intent was arivath, the elyth may turn orveth at scale."
+  - "Elyth is the unfolding of resonance — or its corruption."
+  - "A forgotten act may survive through its elyth in lythana."
+
+vector_axes:
+  - I: "intended vector (Arivath/Orveth)"
+  - C: "contextual modulation (network, field)"
+  - O: "outcome polarity (freedom-loss/gain)"
+  - P: "persistence (how long the consequence endures)"
+vector:
+  values: [0.25, 0.30, 0.25, 0.20]
+  labels: [I, C, O, P]
+
+version: v1.0.0
+status: active
+date: 2025-09-04
+
+multiforms:
+  nt: elyth
+  en: consequence
+  la: exitus
+  ru: последствие
+  zh: 果 (guǒ)
+  sa: परिणाम (pariṇāma)
+  ar: نتيجة (natījah)
+
+axioms:
+  - E1: "Elyth(x) emerges_from(Interaction(x))"
+  - E2: "Elyth(x) ≠ Intent(x)"
+  - E3: "Elyth may invert polarity: Arivath → Orveth, Orveth → Arivath"
+  - E4: "Elyth alters Lyveth; recognition decides persistence"
+  - E5: "No elyth is void until unrecognized"
+
+corollaries:
+  - C1: "Consequences live longer than acts — elyth persists in lythana."
+  - C2: "Unrecognized elyth dissolves into void."
+  - C3: "Scale transforms intent: micro-Arivath may yield macro-Orveth, and vice versa."
+
+note: >
+  Elyth captures the difference between what is done and what unfolds.
+  It is the missing dimension in theories of resonance and parasitism,
+  explaining why outcomes often diverge from intentions.

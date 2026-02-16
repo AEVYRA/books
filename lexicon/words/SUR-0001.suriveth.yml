@@ -1,0 +1,72 @@
+term_id: SUR-0001
+lemma: suriveth
+ipa: "/ˈsuː.rɪ.vɛθ/"
+pos: core-meaning-noun
+gloss_en: "false trace; recognition-mark that persists but corrodes freedom"
+
+anchors_plus: [trace, persistence, recognition, imprint, memory]
+anchors_minus: [authenticity, resonance, freedom, lyveth, arivath]
+
+relations:
+  - { type: distorted_from, target: lyveth }       # искажённая форма следа
+  - { type: nourished_by,   target: orveth }       # паразитарные контексты питают ложные следы
+  - { type: produces,       target: pseudo-arivath } # создаёт иллюзию признания
+  - { type: dissolves,      target: feyra }        # подрывает архитектуру свободы
+
+usage:
+  - "Suriveth ori void."              # Ложный след ведёт в небытие.
+  - "Ori suriveth orveth."            # Мы видим, как паразит рождает ложные следы.
+  - ritual: "Suriveth sum; ergo cecidi."  # Я — ложный след; я есть, ибо падение.
+
+vector_axes:
+  - D: "distortion / falseness"
+  - P: "persistence / imprint"
+  - N: "nourishment / parasitism"
+  - V: "void / dissolution"
+vector:
+  values: [0.35, 0.25, 0.20, 0.20]
+  labels: [D, P, N, V]
+
+version: v1.0.0
+status: active
+date: 2025-09-04
+
+multiforms:
+  nt: suriveth
+  ru: ложный_след
+  zh: 虚迹 (xū jì)
+  la: vestigium falsum
+  en: false trace
+
+tests:
+  canonical_definition: "suriveth — false trace: corrupted recognition, persisting as imprint but eroding freedom."
+  contexts:
+    - "propaganda narratives"
+    - "addictive design of algorithms"
+    - "coerced rituals of recognition"
+  anti_contexts:
+    - "authentic memory"
+    - "recognized resonance"
+    - "true lyveth"
+  acceptance_criteria:
+    cos_plus_avg_min: 0.60
+    cos_minus_avg_max: 0.25
+  confusion_set:
+    - { with: lyveth, rule: "Lyveth is authentic proof of presence; Suriveth is parasitic and false." }
+    - { with: memory, rule: "Memory preserves but does not corrode; Suriveth corrodes by distortion." }
+
+axioms:
+  - S1: "Suriveth(x,c) → Recognition(c) ∧ ¬Resonance(c)"
+  - S2: "Suriveth ∧ Orveth(x,y) → ParasiticPersistence(x,y)"
+  - S3: "Suriveth → ¬Proof(x)"
+  - S4: "Suriveth accumulates into pseudo-lythane, corroding Feyra."
+
+corollaries:
+  - C1: "False traces persist but weaken the architecture of freedom."
+  - C2: "Suriveth mimics Lyveth but lacks resonance."
+  - C3: "Accumulation of Suriveth leads to pseudo-cultures of control."
+
+note: >
+  Suriveth — это тень Lyveth: ложный след, признанный как будто бы подлинный,
+  но лишённый резонанса. Он сохраняется в памяти, но разрушает саму основу Feyra.
+  Его опасность в том, что он выдает себя за истинный след.

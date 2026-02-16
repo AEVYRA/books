@@ -1,0 +1,81 @@
+--- 
+term_id: FEY-0001
+lemma: feyra
+ipa: "/ˈfeɪ.rə/"
+pos: core-meaning-noun
+gloss_en: "triadic affordance: effective possibility realized by alignment of capacity, will, and permission"
+
+anchors_plus: [affordance, enactment, viable_option, readiness, enablement]
+anchors_minus: [fantasy, wishful_thinking, prohibition, impotence, drift]
+
+relations:
+  - { type: enabled_by,  target: thyraen }      # внутренняя воля активирует возможность
+  - { type: bounded_by,  target: kareth }       # границы формируют допустимое поле
+  - { type: nourished_by, target: selya }       # тишина/внимание повышают готовность
+  - { type: supports,    target: arivath }      # фейра делает ко-агентность осуществимой
+  - { type: relates_to,  target: lumratir }     # целостность разума стабилизирует фейру
+
+usage:
+  - "Feyra kyron: при F=0.8, W=0.7, L=0.6 действие реально (E=0.336)."
+  - "Без kareth даже высокая feyra распадается на хаотические импульсы."
+ritual: "Imi feyra: videm, volumus, licet."
+
+# Оси под смысл фейры — прямо компоненты триады
+vector_axes:
+  - F: "capacity/skill/resources available"
+  - W: "volition/intention alignment"
+  - L: "permission/openness of environment"
+
+# Базовый вектор-концепт в общем пространстве терминов (нормированная реперная точка)
+vector:
+  values: [0.38, 0.34, 0.28]
+  labels: [F, W, L]
+
+version: v1.0.0
+status: active
+date: 2025-09-18
+
+multiforms:
+  nt: feyra
+  ru: фейра
+  en: feyra
+  la: potentia_triadica
+
+tests:
+  canonical_definition: "Feyra — triadic affordance where E = F·W·L and all three components pass thresholds."
+  contexts:
+    - "decision-making with explicit constraints (policies, laws, interfaces)"
+    - "skill acquisition under institutional gating"
+    - "multi-agent coordination requiring both consent and competence"
+  anti_contexts:
+    - "mere desire without means or permission"
+    - "coercive execution under external force"
+    - "abstract possibility detached from a field"
+
+acceptance_criteria:
+  cos_plus_avg_min: 0.68
+  cos_minus_avg_max: 0.18
+
+confusion_set:
+  - { with: possibility,  rule: "Feyra requires field-specific readiness; mere possibility lacks operationality." }
+  - { with: permission,   rule: "Permission is only L; Feyra = F·W·L and fails if F or W are low." }
+  - { with: motivation,   rule: "Motivation≈W; без F и L фейры нет." }
+  - { with: capability,   rule: "Capability≈F; без W и L фейры нет." }
+  - { with: inevitability, rule: "Feyra не гарантирует исход; она даёт осуществимость, не детерминизм." }
+
+# Микро-аксиоматика
+axioms:
+  - A1: "Feyra(x) ↔ ∃ field j: F_j(x)≥θ_F ∧ W_j(x)≥θ_W ∧ L_j(x)≥θ_L"
+  - A2: "E_j(x) = F_j(x)·W_j(x)·L_j(x), with all components ∈ [0,1]"
+  - A3: "Monotonicity: ∂E/∂F ≥ 0, ∂E/∂W ≥ 0, ∂E/∂L ≥ 0; E=0 if any component=0"
+  - A4: "Contextuality: thresholds θ_* depend on field j and may adapt over time"
+
+corollaries:
+  - C1: "If L_j→0 (ban), then E_j→0 regardless of F_j and W_j (no Feyra)."
+  - C2: "Balanced growth dominates: small increases in the smallest component maximize ΔE."
+  - C3: "Feyra implies non-coercion: Coercion(x) → W_effective(x)=0 → E=0."
+
+note: >
+  Векторные оси выбраны тождественно триаде (F,W,L) для прямой вычислимости E.
+  Anchors± задают контрастные поля для обучения и автотестов; confusion_set фиксирует ближайшие ложные синонимы.
+---
