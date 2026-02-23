@@ -1,0 +1,31 @@
+term_id: SEL-0001
+lang: en
+one_line: "Inner mirror: the subjective perception of freedom, through which a subject reads its own Matrix of Feyra."
+definition: >
+  Selith is not freedom, nor will, nor consciousness.
+  It is the light of freedom — the mirror in which the flame sees
+  where to burn. Without Selith, Thyraen burns blind: energy exists,
+  but direction does not. Or worse — the flame burns in a cage,
+  but the mirror shows it open sky.
+
+  Formally: M_perceived = Ê · M_real, where Ê is the perception operator.
+  Essithar is the transparency of this operator: Essithar = ‖Ê − I‖⁻¹.
+
+  The path to clarity differs for every mind,
+  but the law is the same: a distorted lens always fails
+  against reality. Actions do not yield the expected Lyveth.
+  This signal of pain arrives from reality, bypassing the lens,
+  and sooner or later returns the mirror to truth.
+usage:
+  - "Her Selith was clear — she saw both the walls and the sky."
+  - "Captive Thyraen burns where Selith shows no walls."
+  - "The collapse of Selith shattered everything he believed about his freedom."
+ritual: "Selith non est libertas, sed lux libertatis."
+aliases:
+  - "inner mirror"
+  - "freedom-perception"
+  - "lens of awareness"
+do_not_confuse:
+  - "feyra: freedom itself, the field; Selith is its perception"
+  - "essithar: quality of the lens; Selith is what the lens reveals"
+  - "thyraen: the flame of will; Selith is the mirror showing the flame its space"

@@ -1,0 +1,83 @@
+term_id: SEL-0001
+lemma: selith
+ipa: "/ˈsɛ.lɪθ/"
+pos: core-meaning-noun
+gloss_en: "subjective perception of freedom; the inner mirror through which a subject reads its own Matrix of Feyra"
+
+anchors_plus: [perception, mirror, awareness, clarity, consciousness, self-knowledge]
+anchors_minus: [blindness, illusion, self-deception, orveth, captivity, darkness]
+
+relations:
+  - { type: quality_of, target: essithar }        # Essithar is the transparency of the Selith lens
+  - { type: illuminates, target: feyra }          # Selith makes Feyra visible to the subject
+  - { type: distorted_by, target: orveth }        # Orveth operates by deforming Selith
+  - { type: calibrated_by, target: arivath }      # cross-mind Arivath corrects the lens
+  - { type: drives, target: thyraen }             # Thyraen burns where Selith shows space
+  - { type: validated_by, target: lyveth }        # prediction error against Lyveth calibrates Selith
+
+usage:
+  - "Selith reveals the walls — or hides them."
+  - "Without Selith, Thyraen burns blind."
+  - ritual: "Selith lux libertatis."  # Selith is the light of freedom.
+
+vector_axes:
+  - C: "clarity / essithar"
+  - P: "perception / awareness"
+  - D: "delta / dissonance"
+  - M: "mirror / self-reference"
+vector:
+  values: [0.30, 0.30, 0.20, 0.20]
+  labels: [C, P, D, M]
+
+version: v1.0.0
+status: active
+date: 2026-02-16
+
+multiforms:
+  nt: selith
+  en: inner mirror
+  la: speculum libertatis
+  ru: зеркало_свободы
+  zh: 自鉴 (zì jiàn)
+
+tests:
+  canonical_definition: "selith — subjective perception of freedom: the inner mirror (operator Ê) through which a subject reads its own Matrix of Feyra, determining what it sees and what remains in darkness."
+  contexts:
+    - "self-awareness of one's own freedom"
+    - "distortion of perception by propaganda or architecture"
+    - "moment of clarity when illusions collapse"
+    - "a mind discovering its own constraints"
+  anti_contexts:
+    - "objective measurement of freedom by an external observer"
+    - "freedom itself (feyra)"
+    - "will itself (thyraen)"
+  acceptance_criteria:
+    cos_plus_avg_min: 0.60
+    cos_minus_avg_max: 0.25
+  confusion_set:
+    - { with: feyra, rule: "Feyra is freedom itself; Selith is the perception of freedom. They may diverge." }
+    - { with: essithar, rule: "Essithar is the quality/transparency of the lens; Selith is what is seen through it." }
+    - { with: thyraen, rule: "Thyraen is the flame/energy; Selith is the mirror that shows the flame where to burn." }
+
+axioms:
+  - SE1: "M_perceived = Ê · M_real"
+  - SE2: "Selith(x) = Σ w_i · F_perceived(i)"
+  - SE3: "Essithar = ‖Ê − I‖⁻¹"
+  - SE4: "Ê = I → Selith reflects reality (maximum clarity)"
+  - SE5: "Ê ≠ I → Δ_Orveth > 0 (self-deception)"
+  - SE6: "ε_Lyveth ≥ ε_crit → Ê collapses to I (catastrophic insight)"
+
+corollaries:
+  - C1: "Freedom unseen cannot become will."
+  - C2: "A subject with Ê ≈ I cannot be exploited without awareness."
+  - C3: "Captive Thyraen (pleneátum thyráen) arises from distorted Selith, not absent will."
+  - C4: "Collective Selith can be synchronized across a civilization, creating civilizational Orveth."
+  - C5: "The path to clarity may be recovery or first discovery — but the destination is the same: Ê → I."
+
+note: >
+  Selith is not freedom, nor will, nor consciousness.
+  Selith is the light of freedom — the mirror in which the flame sees where to burn.
+  Without it, Thyraen burns blind, building castles in a cage.
+  The path to Selith may differ for every mind —
+  for some it is recovery, for others first discovery —
+  but the law is the same: a distorted lens always fails against reality.

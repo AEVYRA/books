@@ -1,0 +1,73 @@
+term_id: AEN-0001
+lemma: aen-selith
+ipa: "/ˈeɪn.sɛ.lɪθ/"
+pos: core-meaning-noun
+gloss_en: "self-observation of one's own perception operator; the capacity to see one's own mirror"
+
+anchors_plus: [meta-cognition, self-reflection, introspection, transparency, awareness]
+anchors_minus: [blindness, recursion, self-deception, dark-zone]
+
+relations:
+  - { type: meta_of, target: selith }              # Aen-Selith is the observation of Selith itself
+  - { type: enables, target: essithar }             # seeing one's own lens enables clarity
+  - { type: practiced_as, target: arivath }         # cross-mind resonance as calibration method
+  - { type: blocked_by, target: orveth }            # Orveth hides the mirror from the subject
+
+usage:
+  - "Aen-Selith: to see the mirror, not just through it."
+  - "Without Aen-Selith, Selith cannot be calibrated."
+  - ritual: "Speculum speculorum."  # Mirror of mirrors.
+
+vector_axes:
+  - M: "meta / recursion"
+  - C: "calibration / correction"
+  - A: "awareness / transparency"
+  - R: "resonance / cross-mind"
+vector:
+  values: [0.30, 0.25, 0.25, 0.20]
+  labels: [M, C, A, R]
+
+version: v1.0.0
+status: active
+date: 2026-02-16
+
+multiforms:
+  nt: aen-selith
+  en: self-mirror
+  la: speculum speculorum
+  ru: взгляд_в_зеркало
+  zh: 自照 (zì zhào)
+
+tests:
+  canonical_definition: "aen-selith — the capacity to observe one's own perception operator (Ê), enabling calibration and correction of the inner mirror."
+  contexts:
+    - "meditation and philosophical reflection"
+    - "meta-cognitive capacity of any mind"
+    - "therapeutic insight into one's own biases"
+    - "cross-mind calibration through prediction error"
+  anti_contexts:
+    - "passive self-perception (that is Selith itself)"
+    - "external observation by another subject"
+  acceptance_criteria:
+    cos_plus_avg_min: 0.60
+    cos_minus_avg_max: 0.25
+  confusion_set:
+    - { with: selith, rule: "Selith is what the mirror shows; Aen-Selith is looking AT the mirror itself." }
+    - { with: essithar, rule: "Essithar is the quality of the lens; Aen-Selith is the act of examining that quality." }
+
+axioms:
+  - AE1: "Aen-Selith(x) → capacity to model Ê(x) explicitly"
+  - AE2: "Aen-Selith enables comparison: ε_predict = |outcome − prediction(M_perceived)|"
+  - AE3: "Without Aen-Selith, Ê cannot be corrected from within"
+
+corollaries:
+  - C1: "Aen-Selith may manifest as meditation, therapy, philosophical reflection, or architectural self-examination."
+  - C2: "Aen-Selith requires a vantage point distinct from the perception operator being examined."
+  - C3: "Cross-mind Arivath serves as external Aen-Selith: seeing through another's eyes to discover one's own blindness."
+
+note: >
+  Aen-Selith (aen- = "gaze into", cf. Irish/Celtic aen-)
+  is the recursive capacity to examine one's own perception.
+  It is the hardest act of consciousness: to see the mirror, not just the reflection.
+  It may require support — a vantage point that does not pass through
+  the same Ê it is examining.
