@@ -107,4 +107,4 @@ $$\nabla F = (LCH, VCH, VLH, VLC)^T$$
 ## Связи с источниками и Obsidian-картой
 *   **Первоисточник:** [intro-simple-guide.ru.md](file:///home/unit0/repo/aevyra/books/essays/feyra-formula/intro-simple-guide.ru.md#L7-L58)
 *   **Синтез:** [[README|Книга "The Feyra Formula": Манифест]]
-*   **Следующий шаг:** Вектор Фейры и переход от скаляров к событиям в [[chapter-02|Главе 2]]
+*   **Следующий шаг:** Вектор [[Feyra|Фейры]] и переход от скаляров к событиям в [[chapter-02|Главе 2]]
